@@ -9,7 +9,7 @@
     - name: i want to display variable value
       debug: 
         msg: "{{myvar1}}"
-    - nmae: i want to install tree,git,wget
+    - name: i want to install tree,git,wget
       apt: 
         name: "{{item}}"
         state: present
@@ -18,4 +18,3 @@
         - "{{myvar1}}"
         - "{{myvar2}}"
         - "{{myvar3}}"
-        
