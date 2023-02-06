@@ -1,0 +1,10 @@
+--- 
+- name: i wnat to update the package
+  apt:
+    update_chache: yes
+
+- name: i want to install java
+  apt: 
+    name: default -jdk
+    state: present 
+    
