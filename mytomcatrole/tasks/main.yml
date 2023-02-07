@@ -5,5 +5,5 @@
 - inciude_tasks: installtomcat.yml
 - inciude_tasks: updatepermmision.yml
 - inciude_tasks: tomcatservicefile.yml
-
+- inciude_tasks: tomcatservicestart.yml
 
